@@ -1,0 +1,70 @@
+/* Style untuk body */
+/*ANJA BUNGA A - 2210511161*/
+
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font Arial atau font sans-serif sebagai font family */
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Membuat konten berada di tengah horizontal */
+    align-items: center; /* Membuat konten berada di tengah vertikal */
+    height: 100vh; /* Mengatur tinggi body sesuai dengan tinggi viewport */
+    margin: 0; /* Menghapus margin */
+    background-color: lightblue; /* Memberikan warna latar belakang */
+  }
+  
+  .container {
+    background-color: #fff;
+    border: 3px solid lightskyblue;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 30px;
+    text-align: center;
+    width: 600px;
+    max-width: 100%;
+  }
+  
+  
+  /* Style untuk box */
+  .box {
+    background-color: #fff; /* Memberikan warna latar belakang */
+    border-radius: 10px; /* Memberikan border-radius */
+    padding: 20px; /* Memberikan padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan shadow */
+  }
+  
+  /* Style untuk input dan button di dalam box */
+  .box input[type="number"],
+  .box input[type="text"],
+  .box button {
+    padding: 10px; /* Memberikan padding */
+    border-radius: 5px; /* Memberikan border-radius */
+    border: 1px solid #ccc; /* Memberikan border */
+    margin: 10px 0; /* Memberikan margin */
+  }
+  
+  /* Style untuk tombol di dalam box */
+  .box button {
+    background-color: #007bff; /* Memberikan warna latar belakang */
+    color: #fff; /* Memberikan warna teks */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+  }
+  
+  /* Style untuk efek hover pada tombol di dalam box */
+  .box button:hover {
+    background-color: #0056b3; /* Memberikan warna latar belakang saat dihover */
+  }
+  .input-area {
+    text-align: center; /* Mengatur rata tengah untuk semua elemen di dalam .input-area */
+  }
+  
+  .input-area form {
+    display: inline-block; /* Mengatur form agar dapat disusun dalam baris horizontal */
+    text-align: left; /* Mengatur teks dalam form menjadi rata kiri */
+  }
+  
